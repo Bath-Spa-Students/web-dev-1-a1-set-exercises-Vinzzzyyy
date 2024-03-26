@@ -1,0 +1,133 @@
+/* Applies a box size globally with the effects: margin,padding and font family */
+* {
+    box-sizing: border-box;
+    /* Sets the box sizing to border box. */
+    margin: 0;
+    /* Margin is set to 0 . */
+    padding: 0;
+    /* Padding is set to 0 . */
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    /* Font-family for different font. */
+}
+
+/* Applies a style for the body */
+body {
+    margin: 0;
+    /* Set the margin to 0 */
+    padding: 0;
+    /* Set the padding to 0 */
+    width: 100%;
+    /* Set the width to 100 */
+    height: 100%;
+    /* Set the height to 100 */
+    text-align: center;
+    /* Sets the text postion to Center */
+}
+
+/* Style for the body*/
+body h1 {
+    margin: 0px 100px;
+    /* Sets the margin for top and bottom to 0 and 100 to left and right*/
+    font-size: 50px;
+    /* font size for the heading . */
+    padding-left: 20%;
+    /* Sets the left padding to 20% */
+    padding-right: 20%;
+    /* Sets the right padding to 20% */
+    background-color: rgb(170, 238, 227);
+    /* Sets the background color for the body. */
+    color: rgb(8, 8, 8);
+    /* Sets the text color . */
+}
+
+/* Style for the container element */
+.container {
+    position: relative;
+    /* Sets the postion to relative. */
+    width: 100%;
+    height: auto;
+    /* Set the height to automatic . */
+    overflow: hidden;
+    /* Sets it so that if the content overflows to the other it will be hidden */
+}
+
+/* Style for a background image element */
+.background-image {
+    position: absolute;
+    /* Set the postion of the background image to absolute. */
+    top: 0;
+    /* Sets the distance from to the top to 0. */
+    left: 0;
+    /* Sets the distance from the left to 0. */
+    width: 100%;
+    /* Sets the width  to 100%. */
+    height: 100%;
+    /* Sets the height  100%. */
+    background-image: url("Images/background.jpg");
+    
+    background-size: cover;
+    /* Sets the background size to cover the entire website. */
+    background-position: center;
+    /* Sets the postion of the background image to center. */
+    background-repeat: no-repeat;
+    /* Sets it so that the background image wont be repeated if you scrolled down. */
+    z-index: -5;
+    /* Sets the order for the stacking elements. */
+}
+
+/* Style for the images  */
+.Images .Image1,
+.Images .Image2,
+.Images .Image3 {
+    margin: 2% auto;
+    /* Set the margin of top and bottom to 2 and left and right to automatic*/
+    transition: filter 0.2s;
+    /* Set the transition time for the CSS to respond. */
+
+}
+
+/* Add a hover effect on the image */
+.Images .Image1:hover {
+    filter: blur(3px);
+    /* Adds a blur effect in the image*/
+}
+
+/* Add a hover effect on the image */
+.Images .Image2:hover {
+    filter: contrast(20%);
+    /* Add a contrast effect on the imgae  */
+}
+
+/* Add a hover effect on the image */
+.Images .Image3:hover {
+    filter: saturate(50%);
+    /* Add a saturation effect on the image  */
+}
+
+/* Style for the caption for the images */
+figcaption {
+    position: relative;
+    /* Set the postion to relative. */
+    margin-left: 20%;
+    /* Sets the left margin to 20% */
+    margin-right: 20%;
+    /* Setsthe right margin to 20% */
+    font-size: 50px;
+    /* Sets the font size to 50px. */
+    background-color: rgb(170, 238, 227);
+    /* Sets the background color for the caption. */
+}
+
+/* Style for footer element */
+footer {
+    margin-top: 3%;
+    /* Set the top margin to 3%*/
+    font-size: 15px;
+    /* Set the font size. */
+    background-color: rgb(0, 127, 136);
+    /* Set the background color . */
+    padding: 10px;
+    /* Sets the padding  */
+    color: white;
+    /* Sets the text color to white. */
+}
