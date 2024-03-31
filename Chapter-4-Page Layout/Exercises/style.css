@@ -1,0 +1,168 @@
+/* Universally sets the box sizing,margin and padding. */
+* {
+    box-sizing: border-box;
+    /* Sets the box sizing to border box*/
+    margin: 0;
+    /* Set the universal margin to 0. */
+    padding: 0;
+    /* Set the universal padding to 0. */
+}
+
+header {
+    background-color: #17072b;
+    /* Set the background color for the header . */
+    text-align: center;
+    /* Set the alignment of the header . */
+    padding: 1% 1%;
+    /* Setting for the padding for the header. */
+    
+}
+
+header h1 {
+    color: white;
+    /* Sets the text color. */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Sets the font family. */
+    font-size: 64px;
+    /* Sets the font size. */
+    text-decoration: underline;
+    /* Sets the text decoration in order to underline the header text. */
+    margin-top: 0.5%;
+    /* Sets the top margin. */
+    margin-bottom: 1%;
+    /* Sets the bottom margin. */
+}
+
+body p,
+h2 {
+    font-size: 24px;
+    /* Sets the font size. */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Chooses the font family . */
+    
+}
+
+nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Sets the font family for the navigation bar. */
+}
+
+nav a {
+    color: white;
+    /* Sets the text color for the navigation. */
+    font-size: 28px;
+    /* Sets the text size for the nav. */
+    text-decoration: none;
+    /* Sets the text decoration to none. */
+    margin: 32px 16px;
+    /* Sets the margin for the nav. */
+    
+}
+
+main {
+    float: left;
+    /* Sets the main element to float in the left side. */
+    margin-bottom: 5px;
+    /* Sets the bottom margin of the main element . */
+}
+
+main p {
+    text-align: justify;
+    /* Sets the text alignment to justified. */
+    margin-left: 30px;
+
+}
+
+
+main h2 {
+    margin: 1.5% 2%;
+
+    text-decoration: underline;
+    /* Sets the text decoration for the main h2 element to underlined. */
+    font-size: 30px;
+
+    font-weight: bold;
+    /* Sets the font weight of the h2 element to bold. */
+}
+
+
+.mainimage {
+    margin: 1% 2%;
+
+    width: 100%;
+    /* Sets the width of the main image to 100%. */
+}
+
+.sideimages {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    /* Sets the top and bottom margin of the side images  */
+}
+
+.sidebar {
+    float: right;
+    /* Floats the side bar element to the right. */
+    background-color: #172d67;
+    /* Sets the background color of the sidebar . */
+    margin-top: 16px;
+    /* Sets the top margin of sidebar . */
+    padding: 16px 24px;
+    /* Sets the padding for the sidebar. */
+}
+
+.sidebar h2 {
+    color: white;
+    /* Sets the text color of the sidebar. */
+    font-size: 40px;
+    /* Sets the size of the font. */
+    font-weight: bolder;
+    /* Sets the font weight to bolder. */
+    text-decoration: underline;
+    /* Sets a text decoration to the sidebar using underline. */
+    margin-bottom: 32px;
+    /* Sets the bottom margin . */
+   
+}
+
+.sidebar li {
+    color: white;
+    /* Sets the text color for the list. */
+    font-size: 24px;
+    /* Sets the font of the text. */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Sets the font family chosen. */
+    margin-top: 10%;
+
+    
+}
+
+ul {
+    list-style-type: '-';
+    /* Sets the list style for the ul insteading of it being a disc. */
+    margin-left: 2%;
+    /* Sets the margin . */
+}
+
+
+footer {
+    color: white;
+     /* Sets the text color to white. */
+    text-align: center;
+    /* Center Align the text. */
+    font-size: 20px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    /* Sets the font family for the footer. */
+    background-color: #8c15e9;
+    /* Sets the background color. */
+    position: fixed;
+    /* Sets the postion of the footer to fixed. */
+    bottom: 0;
+
+    width: 100%;
+    /* Sets te width to 100%. */
+    padding: 0.5px;
+    /* Sets the padding . */
+    
+   
+}
