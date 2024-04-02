@@ -1,0 +1,45 @@
+div {
+    display: inline-block;
+    font-family: sans-serif; /*the font of the text*/
+    font-size: 20px; /*the font size*/
+    margin: 70px; /*the border colour, thickness and decor*/
+    border: 4px solid black;
+    line-height: 100px;
+    text-align: center;
+    
+    width: 200px; /*the size of the box*/
+    height: 200px;
+  }
+    
+  body {
+    margin: 100px auto;
+    width: max-content;
+  }
+  
+  /*First box */
+  .boxA {
+    border: 5px solid rgb(192, 9, 192); /*color of the border*/
+    box-shadow: 10px 10px 5px red;  /*Gives a shadow style on the box with 10px down and 10px right with 5px blur effect*/
+  }
+  
+  /*Second box*/
+  .boxB {
+    border: 5px solid rgb(14, 250, 14);
+    box-shadow: 7px 7px 7px black inset;   /*Gives a shadow style on the box 7px top ,7px left and 7px blur effect*/
+  }
+  
+  /*Third Box*/
+  .boxC {
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0 0 0 5px orange, 0 0 0 10px blue, 0 0 0 20px red, 0 0 0 30px green; /* Sets 4 box shadow styles for the borders */
+  }
+  
+  /*Fourth Box */
+  .boxD {
+
+   text-shadow: 5px 5px 1px;     /* Gives a shadow effect on the text*/
+   border: 5px solid red;       /* Sets the border px and color*/
+
+  }
+    
