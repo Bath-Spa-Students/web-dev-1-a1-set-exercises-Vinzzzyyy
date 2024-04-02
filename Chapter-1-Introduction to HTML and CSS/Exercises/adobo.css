@@ -1,0 +1,103 @@
+/* External stylesheet  */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;/* Sets the font family to be used  */
+    background-color: #f9f9f9;
+    background-image: url("bg.jpg"); /* For the background image */
+    background-size: cover; /* Sets it so that the background image covers the whole site */
+    background-position: center; /* Position for the background image */
+    max-width: 1200px; /* Sets the max width for the website*/
+    margin: 0 auto; /* Center the website horizontally */
+    padding: 0 20px; /* Add padding to the sides */
+}
+
+/* Header styles */
+header {
+    background-color: #08d2f5c5; /* Sets the background color for the header */
+    color: #ffffff; /* Sets the color for header text */
+    text-align: center;
+    padding: 30px 0; /* Sets the padding to 30px */
+}
+
+/* Main heading styles */
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px; /* Increased margin */
+}
+
+/* Description section styles */
+.description {
+    padding: 30px 20px; /* Sets the padding */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: justify; /* Justifies the text */
+    margin-bottom: 30px; /* Sets the bottom margin */
+    font-size: 20px; /* Sets the font size for the description text */
+    font-family: Arial, Helvetica, sans-serif; /* Sets the font family*/
+}
+
+/* Ingredients section styles */
+.Ingredients {
+    text-align: center;
+    margin-bottom: 30px; /* Sets the bottom margin */
+}
+
+
+/* Ingredient table styles */
+.ingredient-table {
+    display: inline-block;
+    text-align: center; /* Sets the text to center aligned */
+    max-width: 100%; /* Sets the max width of the table */
+    font-size: 20px; /* Sets the font size  */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Sets the font family for the text  */
+    font-weight: bold; /* Make the text bold  */
+}
+
+/* Ingredient table styles */
+.ingredient-table td {
+    padding: 30px; /* Sets the padding  */
+}
+
+/* Ingredient images styles */
+.ingredient-table img {
+    max-width: 150px; /* Sets the max width for the images of ingredients */
+    height: auto;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Method section styles */
+
+.Method{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.method-table {
+    width: 100%;
+    max-width: 600px; /* Sets the max width to be used for the method table */
+    margin: 0 auto 30px; /* Centers the table and adds a margin in the bottom*/
+    border-collapse: collapse; /* Collapse borders */
+}
+
+/* Method table styles */
+.method-table td {
+    padding: 15px; /* Sets the padding */
+}
+
+/* Method heading styles */
+.method-table h2 {
+    font-size: 40px;
+    margin-bottom: 20px; /* Sets the bottom margin */
+}
