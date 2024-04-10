@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif; /* Sets the font */
+    background-color: rgba(255, 255, 255, 0.793); /* Sets the background color */
+    background-size: cover; 
+    max-width: max-content; /* Sets the max width for the whole page */
+    margin: auto; /* Sets the margin */
+    margin-top: 200px;
+}
+
+.Calculator {
+    width: 100%; /* Sets the width of the content */
+    margin: 20px; /* Sets the margin */
+    padding: 20px; /* Sets the padding */
+    border-radius: 8px; /* Sets the radius for the border */
+    border: 1px solid black; /* Sets the thickness and color of the border */
+    background-color: rgb(114, 29, 29);
+    align-content: center; /* Center aligns the content */
+}
+.number div {
+    background-color: rgba(12, 177, 189, 0.8); /* Sets the background color */
+    text-align: center; /* Center aligns the text */
+    padding: 10px; /* Sets the padding */
+    font-size: 30px; /* Sets the font size  */
+    border-radius: 5px;
+}
+
+.number{
+    display: grid; /*  */
+    grid-template-columns: auto auto;
+    gap: 10px; /* Sets the gap between the gasoline liters and fuel type */
+    padding: 10px; /* Sets the padding for them */
+}
+
+#cost {
+    text-align: center; /* Center aligns  the text for the cost of the gasoline */
+    font-weight: bold; /* Bolds the text */
+    color: #ffffff; /* Sets the color of the text */
+    padding: 10px; /* Sets the padding */
+    margin-top: 2%; /* Sets the margin from top */
+}
+
+h1 {
+    color: rgb(255, 255, 255); /* Sets the color for the heading */
+    text-align: center; /* Center aligns the text */
+}
+
+label {
+    margin-top: 10px;
+    font-size: 26px;
+    color: white;
+}
+
+input {
+    width: 90%;
+    border-radius: 4px; /* Sets the size of the border */
+    background-color:(rgb(253, 253, 253),0.5); /* Sets the background color */
+    font-size: 26px; /* Sets the font size of the text */
+    color: #000000;
+}
+
+button {
+    margin-left: 10%; /* Sets the margin of the button  */
+    margin-top: 3%; /* Sets the buttons margin from top */
+    width: 80%; /* Sets the width to 80 */
+    padding: 10px; /* Sets the padding  */
+    background-color: rgb(250, 250, 250); /* Sets the background color */
+    color: rgb(0, 0, 0); /* Sets the buttons text color */
+    border: none;
+    cursor: pointer; /* Sets it so the you need to point your cursor in the button it will do the styles above */
+    font-size: 16px; /* Sets the font size of the text */
+}
+
+button:hover { /* Adds a hover style when you hover to the button */
+    background-color: rgb(12, 177, 189, 0.8); /* Sets the background color once you hover to the button */
+    color: rgba(255, 255, 255, 0.8); /* Sets the color of the text when you hover to it */
+    border:solid 1px #00587aea;
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petron Gas Station Gasoline Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="style.js"></script>
+</head>
+<body>
+    <div class="Calculator">
+        <h1>Petron Gas Station <br> Gasoline Calculator</h1>
+        <div class="number">
+            <div>
+                <label for="gas">Gasoline(Liters)</label>
+            </div>  
+            <div>
+                <input type="number" name="Fuel" id="Gasoline" placeholder="">
+            </div>
+
+            <div>
+                <label for="FuelType">Fuel Type</label>
+            </div>
+            <div>
+                <select id="FuelType">
+                    <option value="Premium">Premium</option>
+                    <option value="Unleaded">Unleaded</option>
+                    <option value="Diesel">Diesel</option>
+                    <option value="Special">Special</option>
+                </select>
+            </div>
+        </div>
+        <button onclick="calculateTotalPrice()">Calculate Total Price</button>
+        <div id="cost"></div>
+    </div>
+</body>
+</html>
